@@ -41,6 +41,7 @@
   color: #888;
 }
 
+/* ; */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -91,5 +92,43 @@ strong{
   width: 100%;
   display: block;
   text-align: center;
+  margin-top: 1rem;
+}
+
+.control{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+
+}
+
+.control-buttons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  width: 150px;
+  align-items: center;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.control-buttons button:nth-child(1){
+  grid-column: 1;
+  grid-row: 2;
+}
+.control-buttons button:nth-child(2){
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.control-buttons button:nth-child(3){
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.control-buttons button:nth-child(4){
+  grid-column: 2;
 }
 
