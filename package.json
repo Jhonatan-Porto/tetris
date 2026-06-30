@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "standard": "^17.1.0",
-    "vite": "^5.2.0"
+    "vite": "^6.4.3"
   },
   "eslintConfig": {
     "extends": [
